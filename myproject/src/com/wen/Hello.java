@@ -11,6 +11,12 @@ public class Hello {
 		p.hello();
 		Person hank = new Person(55.4f , 1.8f);
 		System.out.println(hank.bmi());
+		
+		System.out.println("Hank 80 70"); 
+        System.out.println("Jack 55 96");
+        System.out.println("Mary 76 88");
+ 
+		
 //      Person jack = null;
 //      jack.hello();
 		
