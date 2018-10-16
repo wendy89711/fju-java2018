@@ -6,6 +6,7 @@ public class Person {
 	public Person(float weight, float height) {
 		this.weight = weight;
 		this.height = height;
+		//«Øºc¤l
 	}
 
 	public void hello() {

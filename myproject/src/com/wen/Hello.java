@@ -3,20 +3,31 @@ package com.wen;
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println(3 == 5);
+		String s = new  String("abc");
+		System.out.println(s);
+		
+		Student stu = new Student("Hank",70,90);
+		/*stu.name = "Hank";
+		stu.english = 70;
+		stu.math = 90;*/
+		stu.print();
+		
+//		String name = "Hank";
+//		int english = 70;
+//		int math = 90;
+//		System.out.println(name + "\t" + english +"\t" + math + "\t"+(english+math)/2);
+		
+//		System.out.println("Hank 70 90 ");
+		
 		Person p = new Person(44.4f , 1.513f);
+//		Person p = new Person();
 //		p.weight = 44.4f;
 //		p.height = 1.513f;
 		System.out.println(p.bmi());
 		p.hello();
 		Person hank = new Person(55.4f , 1.8f);
 		System.out.println(hank.bmi());
-		
-		System.out.println("Hank 80 70"); 
-        System.out.println("Jack 55 96");
-        System.out.println("Mary 76 88");
- 
-		
 //      Person jack = null;
 //      jack.hello();
 		
