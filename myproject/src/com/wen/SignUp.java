@@ -14,7 +14,19 @@ public class SignUp {
 		boolean adult = line.equals("y");
 //		boolean adult = line.equalsIgnoreCase("y");
 //		boolean adult = line.toUpperCase().equals("Y");
-		System.out.println(adult);
+		if (adult){
+			System.out.print("Your age?");
+			int age = scanner.nextInt();
+			scanner.nextLine();
+			System.out.print("Your name?");
+			String name = scanner.nextLine();
+			System.out.print("Your nick name?");
+			String nickName = scanner.nextLine();
+			System.out.println(age+"/"+name+"/"+nickName);
+			
+		} else{
+			System.out.println("Thanks,bye");
+		}
 
 	}
 
