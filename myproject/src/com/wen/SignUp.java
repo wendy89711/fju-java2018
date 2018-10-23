@@ -12,6 +12,8 @@ public class SignUp {
 		
 		System.out.println("*"+line+"*");
 		boolean adult = line.equals("y");
+//		boolean adult = line.equalsIgnoreCase("y");
+//		boolean adult = line.toUpperCase().equals("Y");
 		System.out.println(adult);
 
 	}
