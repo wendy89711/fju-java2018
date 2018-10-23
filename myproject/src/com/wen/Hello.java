@@ -1,8 +1,16 @@
 package com.wen;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Your name:");
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
+		
 		System.out.println(3 == 5);
 		String s = new  String("abc");
 		System.out.println(s);
