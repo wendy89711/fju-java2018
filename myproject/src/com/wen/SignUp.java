@@ -16,7 +16,6 @@ public class SignUp {
 		Member member = new Member(adult);
 		if (member.adult){
 			member.startInput();
-			
 		} else{
 			System.out.println("Thanks,bye");
 		}
