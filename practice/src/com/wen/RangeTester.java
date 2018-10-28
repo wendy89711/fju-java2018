@@ -10,7 +10,7 @@ public class RangeTester {
         int number = scanner.nextInt();
         boolean corrent = number >=-3 && number <=5;
         System.out.println(corrent);
-        
+//      scanner.nextInt() 中間是點!!!
 		
 	}
 
