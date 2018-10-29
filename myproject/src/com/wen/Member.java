@@ -10,12 +10,7 @@ public class Member {
 	public Member(boolean adult) {
 		this.adult = adult;
 	}
-	public Member(int age,String name,String nickname) {
-		this.age = age;
-		this.name = name;
-		this.nickName = nickname;
-	}
-	public void startInput(){
+		public void startInput(){
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Your age?");
 		age = scanner.nextInt();
