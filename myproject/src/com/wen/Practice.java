@@ -8,7 +8,7 @@ public class Practice {
 		int a = 3;
 		while (a>1){
 			System.out.println("yyy");
-			a = a -4;
+			a = a -4; 
 		}
 		
 		System.out.println("I'm thinking of a number between 1 and 100(including both). Can you guess what it is?");
