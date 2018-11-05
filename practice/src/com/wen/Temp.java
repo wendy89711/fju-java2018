@@ -8,8 +8,8 @@ public class Temp {
 		System.out.print("Please enter a temperature(Celsius):");
 		Scanner scanner = new Scanner(System.in);
 		double c = scanner.nextDouble();
-		Temperature temp = new Temperature(c);
-		System.out.printf("%.1f C = %.1f F", c,temp.F());
+		double f = c*(9/5.0)+32;
+		System.out.printf("%.1f C = %.1f F",c,f);
 
 	}
 

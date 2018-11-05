@@ -7,17 +7,17 @@ public class Member {
 	int age;
 	String name;
 	String nickName;
-    public Member(boolean adult) {
-    	this.adult = adult;
+	public Member(boolean adult) {
+		this.adult = adult;
 	}
     public void startInput() {
+    	System.out.print("Your age:");
     	Scanner scanner = new Scanner(System.in);
-    	System.out.print("Your age?");
     	age = scanner.nextInt();
     	scanner.nextLine();
-    	System.out.print("Your name?");
+    	System.out.print("Your name:");
     	name = scanner.nextLine();
-    	System.out.print("Your nickname?");
+    	System.out.print("Your nickname:");
     	nickName = scanner.nextLine();
     	System.out.println(age+"/"+name+"/"+nickName);
     }

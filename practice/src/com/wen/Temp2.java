@@ -2,10 +2,10 @@ package com.wen;
 
 import java.util.Scanner;
 
-public class Temp {
+public class Temp2 {
 
 	public static void main(String[] args) {
-		System.out.print("Please enter a temperature(Celsius):");
+		System.out.print("Please enter a temperature(Celsius)");
 		Scanner scanner = new Scanner(System.in);
 		double c = scanner.nextDouble();
 		Temperature temp = new Temperature(c);
