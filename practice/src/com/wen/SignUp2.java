@@ -16,4 +16,5 @@ public class SignUp2 {
 			System.out.println("Thanks,bye");
 		}
 	}
+	
 }

@@ -13,3 +13,4 @@ public class Student {
 		System.out.println(Name+"\t"+English+"\t"+Chinese+"\t"+(English+Chinese)/2);
 	}
 }
+

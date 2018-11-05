@@ -7,6 +7,6 @@ public class Length {
 	}
 	public double Ft() {
 		double Ft = Centimeter/30.48;
-		return Ft;
+		return Ft; 
 	}
 }

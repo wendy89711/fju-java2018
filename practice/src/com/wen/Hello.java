@@ -25,7 +25,6 @@ public class Hello {
 		Student s = new Student("Wendy",82,73);
 		s.print();
 		
-
 	}
 
 }

@@ -10,7 +10,7 @@ public class Len {
 		double cm = scanner.nextDouble();
 		Length leng = new Length(cm);
 		System.out.printf("%.1f cm = %.3f ft",cm,leng.Ft());
-
+ 
 	}
 
 }

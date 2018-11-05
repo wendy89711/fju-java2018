@@ -22,7 +22,6 @@ public class Guess {
 				System.out.println(low+"~"+high);
 			}
 		}
-		
 
 	}
 

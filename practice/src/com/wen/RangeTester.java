@@ -10,7 +10,6 @@ public class RangeTester {
 		int n = scanner.nextInt();
 		boolean corrent = n>=-9 && n<=8;
 		System.out.println(corrent);
-		
 
 	}
 
