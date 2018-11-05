@@ -1,21 +1,15 @@
 package com.wen;
 
 public class Student {
-	String name;
-	int chinese;
-	int math;
-	
-	public Student(String name,int chinese,int math) {
-		this.name = name;
-		this.chinese = chinese;
-		this.math = math;
+	String Name;
+	int English;
+	int Chinese;
+	public Student(String name,int english,int chinese) {
+		this.Name = name;
+		this.English = english;
+		this.Chinese = chinese;
 	}
-	
 	public void print() {
-		System.out.println( name + "\t" + chinese + "\t" + math + "\t" + (chinese+math)/2);	
-	}
-	
-	public void hello() {
-		System.out.println("Hey");
+		System.out.println(Name+"\t"+English+"\t"+Chinese+"\t"+(English+Chinese)/2);
 	}
 }

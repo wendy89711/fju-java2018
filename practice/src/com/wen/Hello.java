@@ -19,13 +19,11 @@ public class Hello {
 		String nick = "Wendy";
 		System.out.printf("Hi,%s,Your weight: %.1f KG\n", nick,d);
 		
-		Person wendy = new Person(45f,1.52f);
-		System.out.println(wendy.bmi());
+		Person Wendy = new Person(45f,1.52f);
+		Wendy.bmi();
 		
-		Student stu =new Student("Wendy",82,74);
-		stu.print();
-		stu.hello();
-		
+		Student s = new Student("Wendy",82,73);
+		s.print();
 		
 
 	}

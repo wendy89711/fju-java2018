@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class RangeTester {
 
 	public static void main(String[] args) {
-		System.out.println("Please write a number");
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        boolean corrent = number >=-3 && number <=5;
-        System.out.println(corrent);
-//      scanner.nextInt() 中間是點!!!
+		System.out.print("Enter a number(>=-9&&<=8)");
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		boolean corrent = n>=-9 && n<=8;
+		System.out.println(corrent);
 		
+
 	}
 
 }
