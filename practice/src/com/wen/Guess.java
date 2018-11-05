@@ -6,22 +6,23 @@ import java.util.Scanner;
 public class Guess {
 
 	public static void main(String[] args) {
-		System.out.print("Please guess a number:");
+		System.out.print("Guess a number:");
 		Random random = new Random();
 		int secret = random.nextInt(100)+1;
 		Scanner scanner = new Scanner(System.in);
-		int low = 1;
 		int high = 100;
+		int low = 1;
 		while(true) {
 			int guess = scanner.nextInt();
-			if(guess == secret) {
+			if(guess==secret) {
 				System.out.println("Bingo!");
-			}else {
-				if(guess>=low&&guess<secret) low=guess;
-				if(guess>secret&&guess<=high) high=guess;
+			}else{
+				if(low<=guess&&guess<secret) low=guess;
+				if(secret<guess&&guess<=high) high=guess;
 				System.out.println(low+"~"+high);
 			}
 		}
+		
 
 	}
 
