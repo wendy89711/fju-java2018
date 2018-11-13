@@ -5,6 +5,11 @@ import java.util.Random;
 public class Practice {
 
 	public static void main(String[] args) {
+		int d = 0;
+		for (d=0; d<3;d++){
+		}
+		System.out.println(d);
+		
 		int a = 3;
 		while (a>1){
 			System.out.println("yyy");
