@@ -16,7 +16,7 @@ public class Hello {
 //		String s = new  String("abc");
 //		System.out.println(s);
 		
-		Student stu = new Student("Wendy",70,50);
+		Student stu = new Student("Wendy",70,50); 
 		/*stu.name = "Hank";
 		stu.english = 70;
 		stu.math = 90;*/

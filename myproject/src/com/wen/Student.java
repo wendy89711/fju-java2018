@@ -30,7 +30,6 @@ public class Student {
 			grading = 'C';
 		}
 	}
-
 	public int getAverage() {
 		return (english + math) / 2;
 	}

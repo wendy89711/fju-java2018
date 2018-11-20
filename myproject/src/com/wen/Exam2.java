@@ -26,6 +26,5 @@ public class Exam2 {
 			}
 			count++;
 		}
-
 	}
 }
