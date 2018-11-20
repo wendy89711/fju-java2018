@@ -6,17 +6,17 @@ public class Hello {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("Your name:");
-		String name = scanner.nextLine();
-		System.out.println(name);
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.print("Your name:");
+//		String name = scanner.nextLine();
+//		System.out.println(name);
+//		
+//		
+//		System.out.println(3 == 5);
+//		String s = new  String("abc");
+//		System.out.println(s);
 		
-		
-		System.out.println(3 == 5);
-		String s = new  String("abc");
-		System.out.println(s);
-		
-		Student stu = new Student("Hank",70,90);
+		Student stu = new Student("Wendy",70,50);
 		/*stu.name = "Hank";
 		stu.english = 70;
 		stu.math = 90;*/
